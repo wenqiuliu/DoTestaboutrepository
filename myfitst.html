@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+ h1{
+ 	width:800px;
+ 	height:50px;
+ 	color:#ff0000;
+ 	border:1px solid #ff0000;
+ }
+.about{
+	width:600px;
+	height:400px;
+	border:2px dashed rgb(150,200,10);
+}
+
+#sport{
+	width:300px;
+	height:200px;
+	box-shadow:10px 10px 2px blue;/*纵坐标位移,垂直坐标,阴影大小,阴影颜色*/
+}
+
+.singer{
+	width:300px;
+	height:200px;
+	backgroud:grey;
+
+}
+.time{
+	width:600px;
+	height:200px;
+	border:1px solid #000000;
+	border-radius:20px;
+
+}
+.login{
+	width:400px;
+	height:200px;
+	border-top:5px solid red;
+	border-right:2px dotted green;
+	border-bottom:9px dashed #00cccc;
+	border-left:20px double rgb(122,255,10)
+
+}
+
+</style>
+</head>
+<body>
+<!-- h1标题标签 -->
+<h1>my introdution</h1>
+<div class="about">
+<p>段落标签--我是loser,我要发奋</p>
+<p>这是我的内容<a href="https://www.baidu.com" target="_blank">课堂连接</a></p>
+<img src="C:\Users\LENOVO\Desktop\微信图片_20190923130247.jpg" width="200px" 
+height="200px" title="这是我的人生">
+</div>
+<div id="sport">
+<p>我喜欢的运动有</p>
+<ul>
+	<li>足球</li>
+	<li>篮球</li>
+	<li>游泳</li>
+</ul>
+</div>
+<div class="singer">
+<p>我喜欢的歌手</p>
+<ol>
+	<li>黎明</li>
+	<li>华弟</li>
+	<li>学友</li>
+</ol>
+</div>
+<div class="time">
+<p>我每天的作息时间</p>
+<table border="1">
+	<tr>
+		<td>时间</td>
+		<td>8:00</td>
+		<td>9:00</td>
+		<td>12:00</td>
+		<td>17:00</td>
+		<td>22:00</td>
+	</tr>
+	<tr>
+		<td rowspan="2">活动</td>
+		<td>起床,食早餐</td>
+		<td>上班</td>
+		<td>午饭</td>
+		<td>下班</td>
+		<td>睡觉</td>
+	</tr>
+	<tr>
+		<td colspan="3">打球</td>
+		<td>游泳</td>
+		<td>睡觉</td>	
+	</tr>
+
+</table>
+</div>
+<div class="login">
+<p>想知道更多吗?登录一下吧</p>
+<form >
+用户名<input type="text" /><br>
+密码<input type="password" /><br>
+性别<input type="radio" name="sex" />男性
+	<input type="radio" name="sex" />女性<br>
+喜欢的运动<input type="checkbox" name="sport">篮球
+		<input type="checkbox" name="sport">足球
+		<input type="checkbox" name="sport">游泳<br>
+	来自<select>
+		<option>中国</option>
+		<option>美国</option>
+		<option>欧洲</option>
+		<option selected>其它</option>
+	</select><br>
+	<input type="submit" value="login">
+	
+
+</form>
+
+</div>
+
+</body>
+</html>
